@@ -1,0 +1,9 @@
+header, nav, main, footer{
+    background: #cdcdcd;
+    margin: 10px 0;
+
+}
+
+body{
+    background-color: lightblue;
+}
