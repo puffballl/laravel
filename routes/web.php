@@ -25,6 +25,18 @@ Route::get('/article-op-nummer/nummer-{nummer}', 'ArticleController@showArticle'
     ->name('article.opnummer')
 ;
 
+Route::get('/form', 'TennisteamControler@forms')
+   ->name('form')
+;
+
+Route::get('/', 'TennisteamControler@home')
+    ->name('home')
+;
+
+Route::get('/about', 'TennisteamControler@about')
+    ->name('about')
+;
+
 Route::get('/article/{naam}', function ($naam, $leeftijd) {
     return "ARTICLE" . $naam . "LEEFTIJD = " .$leeftijd;
 })->where('naam', '[a-zA-Z-]+')

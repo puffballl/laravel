@@ -18,21 +18,11 @@
         <ul>
             <li><a href="{{ route('home')}}">home</a></li>
             <li><a href="{{ route('form')}}">form</a> </li>
-            <li><a href="{{ route('about')}}">About</a></li>
+            <li><a href="{{ route('about')}}">about</a></li>
         </ul>
     </nav>
     <main>
-        <form method="post">
-            Team naam: <input type="text" required>
-            <br>
-            hoeveelheid spelers: <input type="text" required>
-            <br>
-            Locatie: <input type="text" required>
-            <br>
-            coach: <input type="text">
-            <br><br>
-            <input type="submit" value="Geef op">
-        </form>
+        Hier komt iets over mij en de opdracht.
     </main>
     <footer>
         dit is een footer

@@ -8,23 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <title>Hello, world!</title>
+    <title>Laravel BAP</title>
 </head>
 <body>
     <div class="container">
+            <h1>Hallo</h1>
         <header>
-            <h1>yeet</h1>
-            @section('header')
-            @show
+            <h2>Tennis teams</h2>
         </header>
         <nav>
-            nav
+            <ul>
+                <li><a href="{{ route('home')}}">home</a></li>
+                <li><a href="{{ route('form')}}">form</a> </li>
+                <li><a href="{{route('about')}}">about</a></li>
+            </ul>
         </nav>
         <main>
-            form
+            Wat random data over het onderwerp.
         </main>
         <footer>
-            footer
+            dit is een footer
         </footer>
     </div>
 

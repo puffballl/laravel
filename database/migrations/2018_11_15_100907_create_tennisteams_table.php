@@ -15,10 +15,10 @@ class CreateTennisteamsTable extends Migration
     {
         Schema::create('tennisteams', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('teamname');
+            $table->string('teamname' , 50);
             $table->integer('playeramount');
-            $table->string('teamlocation');
-            $table->string('teamcoach');
+            $table->string('teamlocation', 50);
+            $table->string('teamcoach', 50);
             $table->timestamps();
         });
     }

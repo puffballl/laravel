@@ -1,9 +1,41 @@
-header, nav, main, footer{
-    background: #cdcdcd;
-    margin: 10px 0;
-
+body{
+    font-family: sans-serif;
+    background-color: lightgreen;
 }
 
-body{
-    background-color: lightblue;
+/*header, nav, main, footer{*/
+    /*margin: 10px 0;*/
+/*}*/
+
+header{
+    background-color: darkgrey;
+    color: greenyellow;
+    margin: 0;
+}
+
+nav{
+    background-color: indianred;
+}
+
+main{
+    background-color: darkred;
+    color: white;
+}
+
+footer{
+    background-color: dimgrey;
+    margin-bottom: 0;
+}
+
+ul{
+    text-decoration: none;
+}
+
+input{
+    margin-top: 50px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
 }
