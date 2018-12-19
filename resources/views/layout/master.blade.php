@@ -21,6 +21,7 @@
                 <li><a href="{{ route('home')}}">home</a></li>
                 <li><a href="{{ route('form')}}">form</a> </li>
                 <li><a href="{{route('about')}}">about</a></li>
+                <li><a href="{{route('gallery.index')}}">fotos</a></li>
             </ul>
         </nav>
         <main>

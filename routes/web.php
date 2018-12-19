@@ -43,3 +43,11 @@ Route::get('/article/{naam}', function ($naam, $leeftijd) {
     ->where('leeftijd', '\d+')
     ->name('article.opnaam')
 ;
+
+
+Route::get('/photo-gallery','PhotoGalleryController@listPhotos')
+    ->name('gallery.index');
+Route::get('/add-photo','PhotoGalleryController@showPhotoForm')
+    ->name('gallery.add_photo_form');
+Route::post('/add-photo','PhotoGalleryController@savePhotoForm')
+    ->name('gallery.save_photo_form');
