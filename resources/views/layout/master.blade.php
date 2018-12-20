@@ -25,7 +25,7 @@
             </ul>
         </nav>
         <main>
-            Wat random data over het onderwerp.
+            @yield('content')
         </main>
         <footer>
             dit is een footer
